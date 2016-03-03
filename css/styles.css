@@ -16,6 +16,18 @@ a:hover {
 	text-align: center;
 	font-size: 5.2em;
 }
+.intro-mid {
+	background-image: url("../images/mountain-tops.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 500px;
+	padding-top: 140px;
+}
+.intro-mid h2 {
+	text-align: center;
+	font-size: 5em;
+}
+
 .solid-background {
 	background-color: #d9d9d9;
 	padding-top: 60px;
@@ -71,7 +83,9 @@ nav {
 	.intro {
 		padding-top: 100px;
 	}
-
+	.intro, .intro-mid {
+		background-attachment:scroll;
+	}
 
 /* Mobile Menu - Display */
 	nav {

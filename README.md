@@ -1,2 +1,14 @@
 # respond-sieve
-Responsive website templates
+Responsive Website Template by Megan Coyle
+
+<p>This template utilizes the following:</p>
+<ul>
+	<li>Bootstrap</li>
+</ul>
+
+<p><strong>Credits:</strong></p>
+<ul>
+	<li>Placeholder text by Hipster Ipsum</li>
+	<li>Placeholder images from pexels.com</li>
+	<li>Icons by Streamline</li>
+</ul>

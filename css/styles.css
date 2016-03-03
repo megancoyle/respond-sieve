@@ -1,0 +1,116 @@
+/* Main Styles */
+a:hover {
+	text-decoration: none;
+}
+
+/* Page Images and text */
+.intro {
+	background-image: url("../images/red-sun-rocks.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 500px;
+	padding-top: 140px;
+}
+.intro h1 {
+	color: white;
+	text-align: center;
+	font-size: 5.2em;
+}
+.solid-background {
+	background-color: #d9d9d9;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.reverse-text {
+	color: white;
+}
+.col-md-4 {
+	text-align: center;
+	padding-top: 30px;
+}
+.col-md-4 img {
+	max-width: 100px;
+}
+
+/* Navigation */
+.menu-nav {
+	text-align: right;
+}
+.menu-nav a {
+	color: white;
+}
+.menu-nav a:hover {
+	color: #bfbfbf;
+}
+.menu-nav ul {
+	list-style: none;
+	max-width: 300px;
+    float: right;
+    border-bottom: 1px solid white;
+    margin-top: 5px;
+    padding-left: 0;
+}
+.menu-nav li {
+	display: inline-block;
+	padding: 20px;
+}
+
+
+/* Mobile Menu - Hidden */
+nav {
+	min-height: 100px;
+	margin-bottom: -120px;
+}
+.mobile-icon, .mobile-menu {
+	display: none;
+	}
+
+
+@media screen and (max-width: 620px) {
+/* Banners and text */
+	.intro {
+		padding-top: 100px;
+	}
+
+
+/* Mobile Menu - Display */
+	nav {
+		background-color: black;
+	}
+	.mobile-icon {
+		display: block;
+		}
+	.mobile-icon img {
+    	float: right;
+    	height: 50px;
+    	margin-top: 20px;
+    	padding-right: 20px;
+    	width: 50px;
+	}
+	.mobile-menu a {
+    color: white;
+	text-transform: lowercase;
+	}
+	.mobile-menu {
+		background-color: black;
+		margin-top: 70px;
+	}
+	.mobile-menu > ul {
+    	font-size: 30px;
+    	list-style: outside none none;
+    	text-align: center;
+		margin-bottom: 0;
+	}
+	.mobile-menu ul {
+		padding-left: 0;
+	}
+	.mobile-menu li {
+    	border-top: 1px solid white;
+    	padding: 15px;
+	}
+	.menu-nav {
+		display: none;
+	}
+
+
+}

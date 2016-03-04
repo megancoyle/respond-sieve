@@ -1,49 +1,23 @@
 /* Main Styles */
+body {
+    font-size: 16px;
+    line-height: 1.7;
+}
+h2 {
+	text-transform: uppercase;
+}
 a:hover {
 	text-decoration: none;
 }
 
-/* Page Images and text */
-.intro {
-	background-image: url("../images/red-sun-rocks.jpg");
-	background-size: cover;
-	background-attachment: fixed;
-	min-height: 500px;
-	padding-top: 140px;
+/* Header */
+.logo a {
+    float: left;
+    padding: 15px 10px 5px 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
 }
-.intro h1 {
-	color: white;
-	text-align: center;
-	font-size: 5.2em;
-}
-.intro-mid {
-	background-image: url("../images/mountain-tops.jpg");
-	background-size: cover;
-	background-attachment: fixed;
-	min-height: 500px;
-	padding-top: 140px;
-}
-.intro-mid h2 {
-	text-align: center;
-	font-size: 5em;
-}
-
-.solid-background {
-	background-color: #d9d9d9;
-	padding-top: 60px;
-	padding-bottom: 60px;
-}
-.reverse-text {
-	color: white;
-}
-.col-md-4 {
-	text-align: center;
-	padding-top: 30px;
-}
-.col-md-4 img {
-	max-width: 100px;
-}
-
 /* Navigation */
 .menu-nav {
 	text-align: right;
@@ -78,6 +52,58 @@ nav {
 	}
 
 
+/* Page Images and text */
+.intro {
+	background-image: url("../images/red-sun-rocks.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 500px;
+	padding-top: 140px;
+}
+.intro h1 {
+	color: white;
+	text-align: center;
+	font-size: 5.2em;
+}
+.intro-mid {
+	background-image: url("../images/mountain-tops.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 500px;
+	padding-top: 140px;
+}
+.intro-mid h2 {
+	text-align: center;
+	font-size: 5em;
+	text-transform: none;
+}
+
+.solid-background {
+	background-color: #d9d9d9;
+	padding-top: 70px;
+	padding-bottom: 90px;
+}
+.reverse-text {
+	color: white;
+}
+.col-md-4 {
+	text-align: center;
+	padding-top: 30px;
+}
+.col-md-4 img {
+	max-width: 100px;
+}
+
+/* Footer */
+.footer-links {
+    text-align: left;
+}
+.footer-links ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+
 @media screen and (max-width: 620px) {
 /* Banners and text */
 	.intro {
@@ -97,7 +123,7 @@ nav {
 	.mobile-icon img {
     	float: right;
     	height: 50px;
-    	margin-top: 20px;
+    	margin-top: 10px;
     	padding-right: 20px;
     	width: 50px;
 	}
@@ -107,7 +133,7 @@ nav {
 	}
 	.mobile-menu {
 		background-color: black;
-		margin-top: 70px;
+		margin-top: 90px;
 	}
 	.mobile-menu > ul {
     	font-size: 30px;

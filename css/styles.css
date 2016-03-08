@@ -102,7 +102,20 @@ nav {
 	list-style: none;
 	padding-left: 0;
 }
-
+.social-media {
+	background: black;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.social-media img {
+    width: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.social-media img:hover {
+    opacity: .8;
+}
 
 @media screen and (max-width: 620px) {
 /* Banners and text */

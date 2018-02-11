@@ -1,12 +1,7 @@
 # respond-sieve
-Responsive Website Template by Megan Coyle
+Responsive Website Templates
 
-<p>I've decided to put together a few responsive web templates. More are on their way :)</p>
-
-<p>This template utilizes the following:</p>
-<ul>
-	<li>Bootstrap</li>
-</ul>
+<p>I've decided to put together a few light-weight and responsive web templates. More are on their way :)</p>
 
 <p><strong>Credits:</strong></p>
 <ul>

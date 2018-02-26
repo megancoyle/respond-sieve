@@ -15,7 +15,6 @@ a:hover {
 	text-decoration: none;
 }
 
-
 /* Header */
 .logo a {
   float: left;
@@ -109,7 +108,7 @@ nav {
 }
 
 .solid-background {
-	background-color: #d9d9d9;
+	background-color: #f2f2f2;
 	padding-top: 70px;
 	padding-bottom: 90px;
 }
@@ -127,13 +126,23 @@ nav {
 }
 
 .col-3 img {
-	max-width: 100px;
+	max-width: 80px;
 }
 
 
 /* Footer */
 .col-3.footer-links {
   text-align: center;
+  margin: 0 5px;
+  padding-top: 0;
+}
+
+.col-3.footer-links:not(:last-child) {
+  border-right: 1px solid #999999;
+}
+
+.footer-links h4 {
+  margin-top: 0;
 }
 
 .footer-links a {
@@ -232,5 +241,14 @@ nav {
   .col-3 {
     width: 100%;
     display: block;
+  }
+
+  .col-3.footer-links {
+    margin-bottom: 15px;
+  }
+
+  .col-3.footer-links:not(:last-child) {
+    border-right: none;
+    border-bottom: 1px solid #999999;
   }
 }
